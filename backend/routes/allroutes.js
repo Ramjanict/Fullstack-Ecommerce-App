@@ -20,6 +20,7 @@ const addToCartViewProduct = require("../controller/user/addToCartViewProduct");
 const updateAddToCartProduct = require("../controller/user/updateAddToCartProduct");
 const deleteAddToCartProduct = require("../controller/user/deleteAddToCartProduct");
 const latestProduct = require("../controller/product/latestProduct");
+const getAllProducts = require("../controller/product/getAlproducts");
 
 //admin panel
 router.get("/all-users", authToken, allusers);
@@ -27,7 +28,7 @@ router.post("/update-user", authToken, updateUser);
 router.post("/delete-admin-product", authToken, deleteAdminProduct);
 
 //product API
-router.get("/allproducts", getAllproduct);
+router.get("/allproducts", getAllProducts);
 router.post("/upload-product", authToken, uploadProduct);
 router.post("/update-product", authToken, updateProduct);
 router.post("/category-product", getCategoryWiseProduct);
