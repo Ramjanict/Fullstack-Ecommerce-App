@@ -9,7 +9,6 @@ const addToCart = require("../controller/product/addToCart");
 const updateProduct = require("../controller/product/updateProduct");
 const deleteAdminProduct = require("../controller/user/deleteAdminProduct");
 const uploadProduct = require("../controller/product/uploadProduct");
-const getAllproduct = require("../controller/product/allProduct");
 const allusers = require("../controller/user/allusers");
 const updateUser = require("../controller/user/updateUser");
 const getCategoryWiseProduct = require("../controller/product/getCategoryWiseProduct");
