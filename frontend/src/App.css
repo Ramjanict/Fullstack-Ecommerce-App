@@ -1,0 +1,23 @@
+.hero {
+  background: linear-gradient(180deg, #dcd0dd, #b499a622 60%);
+}
+.offers,.newsletter { background: linear-gradient(180deg, #fde1ff 0%, #f5f1ec22 60%)}
+.customShadow{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0,.1);
+}
+/*chrome,safari,opera*/
+
+/**scrollbar hidden****/
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
+
+/*mozila*/
+html {scrollbar-width: none;} /*for firfox body*/
+.scrollbar-none{
+  scrollbar-width: none;
+}
+/*Edge*/
+body{
+  -ms-overflow-style: none;
+}
