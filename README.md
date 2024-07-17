@@ -3,7 +3,7 @@
 A fully functional Fullstack E-commerce website
 
 #### Login as admin for details
-Email: ra@gmail.com 
+Email: ra@gmail.com <br>
 password: 12345
 #### [Live Preview](https://fullstack-ecommerce-mern-app-usvm.vercel.app/)
 
